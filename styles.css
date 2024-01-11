@@ -1,0 +1,48 @@
+
+body.dark-mode {
+  background-color: #27363f;
+  color: #fff;
+}
+
+form.dark-mode input,
+form.dark-mode select {
+  background-color: #413232;
+  color: #fff;
+}
+
+form.dark-mode .dropdown-item {
+  background-color: #555;
+  color: #fff;
+}
+
+header {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffff;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: rgba(85, 128, 171, 0.752);
+  color: #ffffff;
+}
+
+main {
+  padding: 20px;
+}
