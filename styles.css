@@ -46,3 +46,14 @@ nav ul li a:hover {
 main {
   padding: 20px;
 }
+
+.iframe-parent{
+  width: 100vw;
+  height: 50vh;
+}
+
+/* Expand to the entire container */
+iframe{
+  width: 100%;
+  height: 100%;
+}
